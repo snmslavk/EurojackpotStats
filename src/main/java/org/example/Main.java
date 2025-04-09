@@ -58,25 +58,25 @@ class StatsCalculation {
         long numberOfDraws;
         try (Stream<Path> files = Files.list(statsData)) {
             numberOfDraws = files.count();
-            System.out.println("number of draws:" + numberOfDraws);
+            System.out.println("number of draws:" + numberOfDraws + "<br />");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
         Map<Integer, Integer> sortedUsualDraw = usualDraw.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
-        System.out.println();
-        System.out.println("Sorted number by frequency in usual draw:");
-        sortedUsualDraw.forEach((key, value) -> System.out.println("number:"+key + " frequency:" + value + " percentage:" + (((double)value)/numberOfDraws)*100 + "%"));
+        System.out.println("<br />");
+        System.out.println("Sorted number by frequency in usual draw:<br />");
+        sortedUsualDraw.forEach((key, value) -> System.out.println("number:"+key + " frequency:" + value + " percentage:" + (((double)value)/numberOfDraws)*100 + "%  "));
 
         Map<Integer, Integer> sortedAdditionalTwo = additionalTwo.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+        System.out.println("<br />");
+        System.out.println("Sorted number by frequency in additional two:  ");
+        sortedAdditionalTwo.forEach((key, value) -> System.out.println("number:"+key + " frequency:" + value + " percentage:" + (((double)value)/numberOfDraws)*100 + "%  "));
         System.out.println();
-        System.out.println("Sorted number by frequency in additional two:");
-        sortedAdditionalTwo.forEach((key, value) -> System.out.println("number:"+key + " frequency:" + value + " percentage:" + (((double)value)/numberOfDraws)*100 + "%"));
-        System.out.println();
-        System.out.println("Chances to win and amount of money");
+        System.out.println("Chances to win and amount of money:  ");
         double chances5_2 = (((double)sortedUsualDraw.get(20))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(34))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(49))/numberOfDraws)
@@ -84,7 +84,7 @@ class StatsCalculation {
                 *(((double)sortedUsualDraw.get(11))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(3))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(5))/numberOfDraws);
-        System.out.println("5+2 chances:" + String.format("%.8f", chances5_2*100) + "% prize:1 573 179 300 Kč");
+        System.out.println("5+2 chances:" + String.format("%.8f", chances5_2*100) + "% prize:1 573 179 300 Kč  ");
 
         double chances5_1 = (((double)sortedUsualDraw.get(20))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(34))/numberOfDraws)
@@ -92,14 +92,14 @@ class StatsCalculation {
                 *(((double)sortedUsualDraw.get(16))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(11))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(3))/numberOfDraws);
-        System.out.println("5+1 chances:" + String.format("%.8f", chances5_1*100) + "% prize:15 032 602 Kč");
+        System.out.println("5+1 chances:" + String.format("%.8f", chances5_1*100) + "% prize:15 032 602 Kč  ");
 
         double chances5_0 = (((double)sortedUsualDraw.get(20))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(34))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(49))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(16))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(11))/numberOfDraws);
-        System.out.println("5+0 chances:" + String.format("%.8f", chances5_0*100) + "% prize:3 767 862 Kč");
+        System.out.println("5+0 chances:" + String.format("%.8f", chances5_0*100) + "% prize:3 767 862 Kč  ");
 
         double chances4_2 = (((double)sortedUsualDraw.get(20))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(34))/numberOfDraws)
@@ -107,14 +107,14 @@ class StatsCalculation {
                 *(((double)sortedUsualDraw.get(16))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(3))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(5))/numberOfDraws);
-        System.out.println("4+2 chances:" + String.format("%.8f", chances4_2*100) + "% prize:124 301 Kč");
+        System.out.println("4+2 chances:" + String.format("%.8f", chances4_2*100) + "% prize:124 301 Kč  ");
 
         double chances4_1 = (((double)sortedUsualDraw.get(20))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(34))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(49))/numberOfDraws)
                 *(((double)sortedUsualDraw.get(16))/numberOfDraws)
                 *(((double)sortedAdditionalTwo.get(3))/numberOfDraws);
-        System.out.println("4+1 chances:" + String.format("%.8f", chances4_1*100) + "% prize:7 769 Kč");
+        System.out.println("4+1 chances:" + String.format("%.8f", chances4_1*100) + "% prize:7 769 Kč  ");
     }
 
     public static void downloadStats() {
