@@ -133,18 +133,19 @@ public class StatsCalculation {
                                 if (i != numbers.get(0)
                                         && i != numbers.get(1)
                                         && i != numbers.get(2)
+                                        && i != numbers.get(3)
                                         && i != numbers.get(4)) {
                                     usualDraw.put(i, usualDraw.get(i) * 0.98);
                                 }
                             }
 
-                            additionalTwo.put(numbers.get(5), 0.98);
-                            additionalTwo.put(numbers.get(6), 0.98);
+                            additionalTwo.put(numbers.get(5), 0.917);
+                            additionalTwo.put(numbers.get(6), 0.917);
 
                             for (int i = 1; i < 13; i++) {
                                 if (i != numbers.get(5)
                                         && i != numbers.get(6)) {
-                                    additionalTwo.put(i, additionalTwo.get(i) * 0.98);
+                                    additionalTwo.put(i, additionalTwo.get(i) * 0.917);
                                 }
                             }
                         } catch (IOException e) {

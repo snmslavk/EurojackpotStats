@@ -85,10 +85,100 @@ number:2 frequency:113 percentage:16.258992805755394%
 number:12 frequency:56 percentage:8.057553956834532%  
 number:11 frequency:46 percentage:6.618705035971223%
 
-Chances to win and the amount of money:  
+Chances to win and the amount of money with top numbers according to frequency:  
 ---
 5+2 chances:0.00009525% prize:1 573 179 300 Kč  
 5+1 chances:0.00048320% prize:15 032 602 Kč  
 5+0 chances:0.00233209% prize:3 767 862 Kč  
 4+2 chances:0.00083795% prize:124 301 Kč  
 4+1 chances:0.00425091% prize:7 769 Kč  
+
+<br />
+
+Probability theory
+===
+We have 50 numbers. Chances that one number will be in draw 2%, chances that it will not be in draw 98%  
+In probability theory if we have two events probability with AND it means multiplication  
+For example the chances that a number will NOT be in two draws in a row are 0.98*0.98=0.9604=96%  
+
+Chances the number will NOT be in the next usual draw:<br />
+---
+number:25 chance:41.94896545954032%  
+number:28 chance:48.32131282057164%  
+number:37 chance:51.340547752819454%  
+number:41 chance:56.797617595005924%  
+number:43 chance:56.797617595005924%  
+number:4 chance:60.346472977889654%  
+number:6 chance:62.83472821521205%  
+number:26 chance:65.42558123199923%  
+number:8 chance:66.76079717550942%  
+number:45 chance:69.51353308570327%  
+number:16 chance:70.93217661806457%  
+number:34 chance:72.37977205924956%  
+number:39 chance:75.36419414749017%  
+number:48 chance:76.90223892601038%  
+number:50 chance:76.90223892601038%  
+number:7 chance:78.47167237347999%  
+number:13 chance:80.07313507497958%  
+number:36 chance:80.07313507497958%  
+number:11 chance:81.70728068875466%  
+number:32 chance:81.70728068875466%  
+number:3 chance:83.37477621301497%  
+number:17 chance:83.37477621301497%  
+number:21 chance:83.37477621301497%  
+number:42 chance:83.37477621301497%  
+number:19 chance:85.07630225817854%  
+number:23 chance:85.07630225817854%  
+number:10 chance:86.81255332467198%  
+number:9 chance:88.58423808639998%  
+number:14 chance:88.58423808639998%  
+number:15 chance:88.58423808639998%  
+number:47 chance:88.58423808639998%  
+number:33 chance:90.39207967999998%  
+number:35 chance:90.39207967999998%  
+number:1 chance:92.23681599999999%  
+number:5 chance:92.23681599999999%  
+number:18 chance:92.23681599999999%  
+number:20 chance:92.23681599999999%  
+number:2 chance:94.11919999999999%  
+number:30 chance:94.11919999999999%  
+number:40 chance:94.11919999999999%  
+number:27 chance:96.03999999999999%  
+number:31 chance:96.03999999999999%  
+number:44 chance:96.03999999999999%  
+number:46 chance:96.03999999999999%  
+number:49 chance:96.03999999999999%  
+number:12 chance:98.0%  
+number:22 chance:98.0%  
+number:24 chance:98.0%  
+number:29 chance:98.0%  
+number:38 chance:98.0%  
+<br />
+
+Chances the number will NOT be in the next additional draw:  
+---
+number:10 chance:24.998236399937035%  
+number:11 chance:27.260890294369723%  
+number:2 chance:29.728342741951714%  
+number:3 chance:42.04296698195169%  
+number:1 chance:49.99823636883309%  
+number:4 chance:54.52370378280599%  
+number:12 chance:59.45878275115156%  
+number:9 chance:64.84054825643572%  
+number:7 chance:70.70943103210003%  
+number:8 chance:84.08890000000001%  
+number:5 chance:91.7%  
+number:6 chance:91.7%
+
+Your lucky numbers NOW (09.04.2025) with the best chances
+---
+25 28 37 41 43  
+10 11
+
+Chances to win and amount of money
+---
+5+2 chances:1.48642672% prize:1 573 179 300 Kč  
+5+1 chances:2.04350414% prize:15 032 602 Kč  
+5+0 chances:2.72460811% prize:3 767 862 Kč  
+4+2 chances:3.44061284% prize:124 301 Kč  
+4+1 chances:4.73007279% prize:7 769 Kč 
