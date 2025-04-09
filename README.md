@@ -1,5 +1,7 @@
 Eurojackpot stats
 ====================================
+![image](https://github.com/user-attachments/assets/80535f74-5808-4d13-bb43-f1a329d17966)
+
 Request format
 ---
 The data is parsed from sazka. The example of url:  
