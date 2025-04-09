@@ -1,17 +1,21 @@
 Eurojackpot stats
 ====================================
-The data is parsed from sazka. The example of url:
-GET https://www.sazka.cz/api/draw-info/draws/universal/eurojackpot/2015015
-2015    01      2 or 5
-year    week    friday or tuesday
+Request format
+---
+The data is parsed from sazka. The example of url:  
+GET https://www.sazka.cz/api/draw-info/draws/universal/eurojackpot/2015015  
+2015 - year  
+01 - week       
+2 or 5 - friday or tuesday  
 
-The data is available at sazka website from 2015. Lottery launched in March 2012.
+The data is available at sazka website from 2015. Lottery launched in March 2012.  
 
 Results of the script run
 =======
-number of draws:695<br />
-<br />
-Sorted number by frequency in usual draw:<br />
+The Number of draws: 695
+---
+The sorted number by frequency in an usual draw:
+---
 number:20 frequency:89 percentage:12.805755395683452%  
 number:34 frequency:83 percentage:11.942446043165468%  
 number:49 frequency:81 percentage:11.654676258992806%  
@@ -63,7 +67,9 @@ number:48 frequency:57 percentage:8.201438848920864%
 number:33 frequency:55 percentage:7.913669064748201%  
 number:25 frequency:52 percentage:7.482014388489208%  
 <br />
-Sorted number by frequency in additional two:  
+
+The sorted number by frequency in an additional two:
+---
 number:3 frequency:144 percentage:20.719424460431654%  
 number:5 frequency:137 percentage:19.71223021582734%  
 number:9 frequency:136 percentage:19.568345323741006%  
@@ -77,7 +83,8 @@ number:2 frequency:113 percentage:16.258992805755394%
 number:12 frequency:56 percentage:8.057553956834532%  
 number:11 frequency:46 percentage:6.618705035971223%
 
-Chances to win and amount of money:  
+Chances to win and the amount of money:  
+---
 5+2 chances:0.00009525% prize:1 573 179 300 Kč  
 5+1 chances:0.00048320% prize:15 032 602 Kč  
 5+0 chances:0.00233209% prize:3 767 862 Kč  
