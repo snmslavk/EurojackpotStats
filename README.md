@@ -1,3 +1,5 @@
+Eurojackpot stats
+====================================
 The data is parsed from sazka. The example of url:
 GET https://www.sazka.cz/api/draw-info/draws/universal/eurojackpot/2015015
 2015    01      2 or 5
@@ -5,7 +7,8 @@ year    week    friday or tuesday
 
 The data is available at sazka website from 2015. Lottery launched in March 2012.
 
-RESULTS
+Results of the script run
+=======
 number of draws:695<br />
 <br />
 Sorted number by frequency in usual draw:<br />
