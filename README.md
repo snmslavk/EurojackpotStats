@@ -14,7 +14,7 @@ Results of the script run
 =======
 The Number of draws: 695
 ---
-The sorted number by frequency in an usual draw:
+The list of numbers sorted by frequency in an usual draw:
 ---
 number:20 frequency:89 percentage:12.805755395683452%  
 number:34 frequency:83 percentage:11.942446043165468%  
@@ -68,7 +68,7 @@ number:33 frequency:55 percentage:7.913669064748201%
 number:25 frequency:52 percentage:7.482014388489208%  
 <br />
 
-The sorted number by frequency in an additional two:
+The list of numbers sorted by frequency in an additional two:
 ---
 number:3 frequency:144 percentage:20.719424460431654%  
 number:5 frequency:137 percentage:19.71223021582734%  
